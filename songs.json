@@ -1,0 +1,52 @@
+[
+    {"url":"http://lynnhan.me/media/song1.mp3",
+    "name":"太平洋的风",
+    "artist":"胡德夫 - 匆匆",
+    "id":"1"
+    },
+    {"url":"http://lynnhan.me/media/song2.mp3",
+    "name":"Another One Bites the Dust",
+    "artist":"Queen - Absolute Greatest",
+    "id":"2"
+    },
+    {"url":"http://lynnhan.me/media/song3.mp3",
+    "name":"Pictures of Nothing",
+    "artist":"Jeff Woodell - Pictures of Nothing",
+    "id":"3"
+    },
+    {"url":"http://lynnhan.me/media/song4.mp3",
+    "name":"Opening Credits(《使命召唤6》配乐)",
+    "artist":"Lorne Balfe / Hans Zimmer - Call of Duty: Modern Warfare",
+    "id":"4"
+    },
+    {"url":"http://lynnhan.me/media/song5.mp3",
+    "name":"静静回忆(Peace Remembered)",
+    "artist":"Lorne Balfe / Hans Zimmer - Call of Duty: Modern Warfare",
+    "id":"5"},
+    {"url":"http://lynnhan.me/media/song6.mp3",
+    "name":"Married Life(《飞屋环游记》电影配乐)",
+    "artist":"Michael Giacchino - Up",
+    "id":"6"
+    },
+    {"url":"http://lynnhan.me/media/song7.mp3",
+    "name":"Haunted",
+    "artist":"Skylar Grey - O'Dark:Thirty EP",
+    "id":"7"
+    },
+    {"url":"http://lynnhan.me/media/song8.mp3",
+    "name":"妹妹你大胆地往前走",
+    "artist":"姜文 - 记忆的符号-中国电影百年寻音集 CD26",
+    "id":"8"
+    },
+    {"url":"http://lynnhan.me/media/song9.mp3",
+    "name":"New Soul",
+    "artist":"Vox Angeli - Irlande",
+    "id":"9"
+    },
+    {"url":"http://lynnhan.me/media/song10.mp3",
+    "name":"滚滚红尘",
+    "artist":"罗大佑 / 陈淑桦 - K歌情人派对",
+    "id":"10"
+    }
+        
+]

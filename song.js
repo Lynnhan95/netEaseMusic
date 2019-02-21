@@ -1,5 +1,34 @@
 
 $(function(){
+    let id = parseInt(location.search.match(/\bid=([^&]*)/)[1])
+
+    $.get('./songs.json').then(function(response){
+        let songs = response
+        console.log(id)
+        let song = songs.filter((e)=>{return id==e.id})[0] //match song and goes to its 0 index
+        console.log(song)
+        let {url} = song  //idus
+        let audio = document.createElement('audio')
+        audio.src = url
+        let playing = false;
+        $('.disc').on('click', (e)=> {
+            togglePlay()
+        })
+        $('.disc').on('ontouch', (e)=> {
+            togglePlay()
+        })
+        function togglePlay(){
+            if(playing === false){
+                audio.play()
+                $('.disc-container').addClass('playing')
+                playing = !playing
+            }else{
+                audio.pause()
+                $('.disc-container').removeClass('playing')
+                playing = !playing
+            }
+        }
+    })
     $.get('lyric.json').then(function(object){
         let {lyric} = object
         let array=lyric.split('\n')
@@ -24,26 +53,7 @@ $(function(){
         })
     })
 
-    let audio = document.createElement('audio')
-    audio.src = './media/song1.mp3'
-    let playing = false;
-    $('.disc').on('click', (e)=> {
-        togglePlay()
-    })
-    $('.disc').on('ontouch', (e)=> {
-        togglePlay()
-    })
-    function togglePlay(){
-        if(playing === false){
-            audio.play()
-            $('.disc-container').addClass('playing')
-            playing = !playing
-        }else{
-            audio.pause()
-            $('.disc-container').removeClass('playing')
-            playing = !playing
-        }
-    }
+
 
 
 })
